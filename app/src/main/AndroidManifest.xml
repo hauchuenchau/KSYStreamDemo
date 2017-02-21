@@ -34,7 +34,7 @@
         android:theme="@style/AppTheme">
         <activity
 
-            android:name="mr.hou.ksystreamdemo.DemoActivity"
+            android:name=".DemoActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
@@ -45,7 +45,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="mr.hou.ksystreamdemo.CameraActivity"
+            android:name=".CameraActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:launchMode="singleTop"
             android:theme="@style/Theme.RiseAnimation">
